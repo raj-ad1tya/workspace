@@ -25,7 +25,7 @@ public class FeedbackServiceImpl implements FeedbackService {
 
     @Override
     public Feedback createFeedback(Feedback feedback) {
-        Integer userId = booking.getUser().getUserId();
+        Integer userId = feedback.getUser().getUserId();
         User user = userRepo.findById(userId).orElse(null);
 
         Integer busId = feedback.getBus().getBusId();

@@ -14,6 +14,8 @@ import org.springframework.security.web.authentication.WebAuthenticationDetailsS
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
+import com.examly.springappuser.config.JwtUtils;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -43,7 +45,7 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             email = jwtUtils.extractUsername(jwt);
             String roles = jwtUtils.extractRoles(jwt);
 
-            UserDetails userDetails = new User(email, "", List.of(new SimpleGrantedAuthority(roles)));
+            UserDetails userDetails = new User(email, "", List.of(new SimpleGrantedAuthority("ROLE_"+roles)));
             UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
             authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
             SecurityContextHolder.getContext().setAuthentication(authentication);

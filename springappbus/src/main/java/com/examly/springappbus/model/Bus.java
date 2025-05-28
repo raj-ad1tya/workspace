@@ -14,6 +14,7 @@ public class Bus {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private int busId;
     private String busName;
+    private String source;
     private String destination;
     private LocalDateTime departureTime;
     private LocalDateTime arrivalTime;
@@ -33,6 +34,14 @@ public class Bus {
 
     public void setBusName(String busName) {
         this.busName = busName;
+    }
+
+    public String getSource() {
+        return source;
+    }
+
+    public void setSource(String source) {
+        this.source = source;
     }
 
     public String getDestination() {

@@ -1,16 +1,16 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.apigateway.ApigatewayApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 4.452 s <<< FAILURE! - in com.examly.apigateway.ApigatewayApplicationTests
-com.examly.apigateway.ApigatewayApplicationTests.backend_testUpdateBusWithRoleValidation  Time elapsed: 0.031 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: <Los Angeles> but was: <New York>
+Tests run: 15, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 4.196 s <<< FAILURE! - in com.examly.apigateway.ApigatewayApplicationTests
+com.examly.apigateway.ApigatewayApplicationTests.backend_testGetBusByIdWithRoleValidation  Time elapsed: 0.023 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Express Bus> but was: <Updated Express Bus>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
-	at com.examly.apigateway.ApigatewayApplicationTests.backend_testUpdateBusWithRoleValidation(ApigatewayApplicationTests.java:276)
+	at com.examly.apigateway.ApigatewayApplicationTests.backend_testGetBusByIdWithRoleValidation(ApigatewayApplicationTests.java:183)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -83,7 +83,7 @@ org.opentest4j.AssertionFailedError: expected: <Los Angeles> but was: <New York>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.examly.apigateway.ApigatewayApplicationTests.backend_testAdminCanUpdateBooking  Time elapsed: 0.055 s  <<< FAILURE!
+com.examly.apigateway.ApigatewayApplicationTests.backend_testAdminCanUpdateBooking  Time elapsed: 0.032 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <500 INTERNAL_SERVER_ERROR>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -164,7 +164,7 @@ org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <500 INTERNAL_S
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.examly.apigateway.ApigatewayApplicationTests.backend_testAddFeedbackWithRoleValidation  Time elapsed: 0.015 s  <<< FAILURE!
+com.examly.apigateway.ApigatewayApplicationTests.backend_testAddFeedbackWithRoleValidation  Time elapsed: 0.042 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <201 CREATED> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -245,7 +245,7 @@ org.opentest4j.AssertionFailedError: expected: <201 CREATED> but was: <403 FORBI
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.examly.apigateway.ApigatewayApplicationTests.backend_testGetAllFeedbackWithRoleValidation  Time elapsed: 0.012 s  <<< FAILURE!
+com.examly.apigateway.ApigatewayApplicationTests.backend_testGetAllFeedbackWithRoleValidation  Time elapsed: 0.013 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -326,7 +326,7 @@ org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <403 FORBIDDEN>
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-com.examly.apigateway.ApigatewayApplicationTests.backend_testGetFeedbackByUserIdWithRoleValidation  Time elapsed: 0.013 s  <<< FAILURE!
+com.examly.apigateway.ApigatewayApplicationTests.backend_testGetFeedbackByUserIdWithRoleValidation  Time elapsed: 0.012 s  <<< FAILURE!
 org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)

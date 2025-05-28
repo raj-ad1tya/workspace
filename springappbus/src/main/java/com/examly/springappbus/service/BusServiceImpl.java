@@ -40,6 +40,7 @@ public class BusServiceImpl implements BusService {
         existingBusDetails.setArrivalTime(busDetails.getArrivalTime());
         existingBusDetails.setDepartureTime(busDetails.getDepartureTime());
         existingBusDetails.setFare(busDetails.getFare());
+        existingBusDetails.setSource(busDetails.getSource());
         existingBusDetails.setDestination(busDetails.getDestination());
         existingBusDetails.setTotalSeats(busDetails.getTotalSeats());
         existingBusDetails.setAvailableSeats(busDetails.getAvailableSeats());

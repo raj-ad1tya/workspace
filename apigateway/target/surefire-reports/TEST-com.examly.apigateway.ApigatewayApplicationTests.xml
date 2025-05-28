@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.apigateway.ApigatewayApplicationTests" time="4.452" tests="15" errors="0" skipped="0" failures="5">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.examly.apigateway.ApigatewayApplicationTests" time="4.196" tests="15" errors="0" skipped="0" failures="5">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
@@ -14,7 +14,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-17-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/coder/project/workspace/apigateway/target/surefire/surefirebooter-20250528151715912_3.jar /home/coder/project/workspace/apigateway/target/surefire 2025-05-28T15-17-15_856-jvmRun1 surefire-20250528151715912_1tmp surefire_0-20250528151715912_2tmp"/>
+    <property name="sun.java.command" value="/home/coder/project/workspace/apigateway/target/surefire/surefirebooter-20250528175344133_3.jar /home/coder/project/workspace/apigateway/target/surefire 2025-05-28T17-53-44_079-jvmRun1 surefire-20250528175344133_1tmp surefire_0-20250528175344133_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/coder/project/workspace/apigateway/target/test-classes:/home/coder/project/workspace/apigateway/target/classes:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-starter-gateway/4.0.9/spring-cloud-starter-gateway-4.0.9.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-starter/4.0.5/spring-cloud-starter-4.0.5.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-context/4.0.5/spring-cloud-context-4.0.5.jar:/home/coder/.m2/repository/org/springframework/security/spring-security-crypto/6.1.8/spring-security-crypto-6.1.8.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-commons/4.0.5/spring-cloud-commons-4.0.5.jar:/home/coder/.m2/repository/org/springframework/security/spring-security-rsa/1.0.12.RELEASE/spring-security-rsa-1.0.12.RELEASE.jar:/home/coder/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.73/bcpkix-jdk18on-1.73.jar:/home/coder/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.73/bcprov-jdk18on-1.73.jar:/home/coder/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.73/bcutil-jdk18on-1.73.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-gateway-server/4.0.9/spring-cloud-gateway-server-4.0.9.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-validation/3.1.10/spring-boot-starter-validation-3.1.10.jar:/home/coder/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.19/tomcat-embed-el-10.1.19.jar:/home/coder/.m2/repository/org/hibernate/validator/hibernate-validator/8.0.1.Final/hibernate-validator-8.0.1.Final.jar:/home/coder/.m2/repository/jakarta/validation/jakarta.validation-api/3.0.2/jakarta.validation-api-3.0.2.jar:/home/coder/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/coder/.m2/repository/com/fasterxml/classmate/1.5.1/classmate-1.5.1.jar:/home/coder/.m2/repository/io/projectreactor/addons/reactor-extra/3.5.1/reactor-extra-3.5.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/3.1.10/spring-boot-starter-actuator-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter/3.1.10/spring-boot-starter-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot/3.1.10/spring-boot-3.1.10.jar:/home/coder/.m2/repository/org/springframework/spring-context/6.0.18/spring-context-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-aop/6.0.18/spring-aop-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-expression/6.0.18/spring-expression-6.0.18.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.1.10/spring-boot-autoconfigure-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.1.10/spring-boot-starter-logging-3.1.10.jar:/home/coder/.m2/repository/ch/qos/logback/logback-classic/1.4.14/logback-classic-1.4.14.jar:/home/coder/.m2/repository/ch/qos/logback/logback-core/1.4.14/logback-core-1.4.14.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.20.0/log4j-to-slf4j-2.20.0.jar:/home/coder/.m2/repository/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar:/home/coder/.m2/repository/org/slf4j/jul-to-slf4j/2.0.12/jul-to-slf4j-2.0.12.jar:/home/coder/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/coder/.m2/repository/org/yaml/snakeyaml/1.33/snakeyaml-1.33.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-actuator-autoconfigure/3.1.10/spring-boot-actuator-autoconfigure-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-actuator/3.1.10/spring-boot-actuator-3.1.10.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.15.4/jackson-databind-2.15.4.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.15.4/jackson-datatype-jsr310-2.15.4.jar:/home/coder/.m2/repository/io/micrometer/micrometer-observation/1.11.10/micrometer-observation-1.11.10.jar:/home/coder/.m2/repository/io/micrometer/micrometer-commons/1.11.10/micrometer-commons-1.11.10.jar:/home/coder/.m2/repository/io/micrometer/micrometer-core/1.11.10/micrometer-core-1.11.10.jar:/home/coder/.m2/repository/org/hdrhistogram/HdrHistogram/2.1.12/HdrHistogram-2.1.12.jar:/home/coder/.m2/repository/org/latencyutils/LatencyUtils/2.0.3/LatencyUtils-2.0.3.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-starter-netflix-eureka-client/4.0.4/spring-cloud-starter-netflix-eureka-client-4.0.4.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-netflix-eureka-client/4.0.4/spring-cloud-netflix-eureka-client-4.0.4.jar:/home/coder/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.3/httpclient5-5.2.3.jar:/home/coder/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2.4/httpcore5-5.2.4.jar:/home/coder/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2.4/httpcore5-h2-5.2.4.jar:/home/coder/.m2/repository/com/netflix/eureka/eureka-client/2.0.1/eureka-client-2.0.1.jar:/home/coder/.m2/repository/com/netflix/netflix-commons/netflix-eventbus/0.3.0/netflix-eventbus-0.3.0.jar:/home/coder/.m2/repository/com/netflix/netflix-commons/netflix-infix/0.3.0/netflix-infix-0.3.0.jar:/home/coder/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar:/home/coder/.m2/repository/joda-time/joda-time/2.3/joda-time-2.3.jar:/home/coder/.m2/repository/org/antlr/antlr-runtime/3.4/antlr-runtime-3.4.jar:/home/coder/.m2/repository/org/antlr/stringtemplate/3.2.1/stringtemplate-3.2.1.jar:/home/coder/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/home/coder/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/home/coder/.m2/repository/org/apache/commons/commons-math/2.2/commons-math-2.2.jar:/home/coder/.m2/repository/com/thoughtworks/xstream/xstream/1.4.19/xstream-1.4.19.jar:/home/coder/.m2/repository/io/github/x-stream/mxparser/1.2.2/mxparser-1.2.2.jar:/home/coder/.m2/repository/xmlpull/xmlpull/1.1.3.1/xmlpull-1.1.3.1.jar:/home/coder/.m2/repository/jakarta/ws/rs/jakarta.ws.rs-api/3.1.0/jakarta.ws.rs-api-3.1.0.jar:/home/coder/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/coder/.m2/repository/com/netflix/servo/servo-core/0.12.21/servo-core-0.12.21.jar:/home/coder/.m2/repository/com/google/guava/guava/19.0/guava-19.0.jar:/home/coder/.m2/repository/org/apache/httpcomponents/httpclient/4.5.3/httpclient-4.5.3.jar:/home/coder/.m2/repository/org/apache/httpcomponents/httpcore/4.4.16/httpcore-4.4.16.jar:/home/coder/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/home/coder/.m2/repository/commons-configuration/commons-configuration/1.10/commons-configuration-1.10.jar:/home/coder/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.15.4/jackson-annotations-2.15.4.jar:/home/coder/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.15.4/jackson-core-2.15.4.jar:/home/coder/.m2/repository/org/codehaus/jettison/jettison/1.4.0/jettison-1.4.0.jar:/home/coder/.m2/repository/com/netflix/eureka/eureka-core/2.0.1/eureka-core-2.0.1.jar:/home/coder/.m2/repository/com/fasterxml/woodstox/woodstox-core/6.2.1/woodstox-core-6.2.1.jar:/home/coder/.m2/repository/org/codehaus/woodstox/stax2-api/4.2.1/stax2-api-4.2.1.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-starter-loadbalancer/4.0.5/spring-cloud-starter-loadbalancer-4.0.5.jar:/home/coder/.m2/repository/org/springframework/cloud/spring-cloud-loadbalancer/4.0.5/spring-cloud-loadbalancer-4.0.5.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-cache/3.1.10/spring-boot-starter-cache-3.1.10.jar:/home/coder/.m2/repository/org/springframework/spring-context-support/6.0.18/spring-context-support-6.0.18.jar:/home/coder/.m2/repository/com/stoyanr/evictor/1.0.0/evictor-1.0.0.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.1.10/spring-boot-starter-test-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test/3.1.10/spring-boot-test-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.1.10/spring-boot-test-autoconfigure-3.1.10.jar:/home/coder/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/coder/.m2/repository/org/slf4j/slf4j-api/2.0.12/slf4j-api-2.0.12.jar:/home/coder/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/coder/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/coder/.m2/repository/net/minidev/json-smart/2.4.11/json-smart-2.4.11.jar:/home/coder/.m2/repository/net/minidev/accessors-smart/2.4.11/accessors-smart-2.4.11.jar:/home/coder/.m2/repository/org/ow2/asm/asm/9.3/asm-9.3.jar:/home/coder/.m2/repository/org/assertj/assertj-core/3.24.2/assertj-core-3.24.2.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy/1.14.12/byte-buddy-1.14.12.jar:/home/coder/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter/5.9.3/junit-jupiter-5.9.3.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.9.3/junit-jupiter-api-5.9.3.jar:/home/coder/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-commons/1.9.3/junit-platform-commons-1.9.3.jar:/home/coder/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.9.3/junit-jupiter-params-5.9.3.jar:/home/coder/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.9.3/junit-jupiter-engine-5.9.3.jar:/home/coder/.m2/repository/org/junit/platform/junit-platform-engine/1.9.3/junit-platform-engine-1.9.3.jar:/home/coder/.m2/repository/org/mockito/mockito-core/5.3.1/mockito-core-5.3.1.jar:/home/coder/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.12/byte-buddy-agent-1.14.12.jar:/home/coder/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/coder/.m2/repository/org/mockito/mockito-junit-jupiter/5.3.1/mockito-junit-jupiter-5.3.1.jar:/home/coder/.m2/repository/org/skyscreamer/jsonassert/1.5.1/jsonassert-1.5.1.jar:/home/coder/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/coder/.m2/repository/org/springframework/spring-core/6.0.18/spring-core-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-jcl/6.0.18/spring-jcl-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-test/6.0.18/spring-test-6.0.18.jar:/home/coder/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-webflux/3.1.10/spring-boot-starter-webflux-3.1.10.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.1.10/spring-boot-starter-json-3.1.10.jar:/home/coder/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.15.4/jackson-datatype-jdk8-2.15.4.jar:/home/coder/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.15.4/jackson-module-parameter-names-2.15.4.jar:/home/coder/.m2/repository/org/springframework/boot/spring-boot-starter-reactor-netty/3.1.10/spring-boot-starter-reactor-netty-3.1.10.jar:/home/coder/.m2/repository/io/projectreactor/netty/reactor-netty-http/1.1.17/reactor-netty-http-1.1.17.jar:/home/coder/.m2/repository/io/netty/netty-codec-http/4.1.107.Final/netty-codec-http-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-common/4.1.107.Final/netty-common-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-buffer/4.1.107.Final/netty-buffer-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport/4.1.107.Final/netty-transport-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec/4.1.107.Final/netty-codec-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-handler/4.1.107.Final/netty-handler-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec-http2/4.1.107.Final/netty-codec-http2-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-resolver-dns/4.1.107.Final/netty-resolver-dns-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-resolver/4.1.107.Final/netty-resolver-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec-dns/4.1.107.Final/netty-codec-dns-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-resolver-dns-native-macos/4.1.107.Final/netty-resolver-dns-native-macos-4.1.107.Final-osx-x86_64.jar:/home/coder/.m2/repository/io/netty/netty-resolver-dns-classes-macos/4.1.107.Final/netty-resolver-dns-classes-macos-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-epoll/4.1.107.Final/netty-transport-native-epoll-4.1.107.Final-linux-x86_64.jar:/home/coder/.m2/repository/io/netty/netty-transport-native-unix-common/4.1.107.Final/netty-transport-native-unix-common-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-transport-classes-epoll/4.1.107.Final/netty-transport-classes-epoll-4.1.107.Final.jar:/home/coder/.m2/repository/io/projectreactor/netty/reactor-netty-core/1.1.17/reactor-netty-core-1.1.17.jar:/home/coder/.m2/repository/io/netty/netty-handler-proxy/4.1.107.Final/netty-handler-proxy-4.1.107.Final.jar:/home/coder/.m2/repository/io/netty/netty-codec-socks/4.1.107.Final/netty-codec-socks-4.1.107.Final.jar:/home/coder/.m2/repository/org/springframework/spring-web/6.0.18/spring-web-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-beans/6.0.18/spring-beans-6.0.18.jar:/home/coder/.m2/repository/org/springframework/spring-webflux/6.0.18/spring-webflux-6.0.18.jar:/home/coder/.m2/repository/io/projectreactor/reactor-core/3.5.15/reactor-core-3.5.15.jar:/home/coder/.m2/repository/org/reactivestreams/reactive-streams/1.0.4/reactive-streams-1.0.4.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="/home/coder/project/workspace/apigateway/target/surefire/surefirebooter-20250528151715912_3.jar"/>
+    <property name="surefire.real.class.path" value="/home/coder/project/workspace/apigateway/target/surefire/surefirebooter-20250528175344133_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.14+7-Debian-1deb11u1"/>
     <property name="user.name" value="coder"/>
@@ -47,7 +47,7 @@
     <property name="user.dir" value="/home/coder/project/workspace/apigateway"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="65287"/>
+    <property name="PID" value="121259"/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
@@ -58,9 +58,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="backend_testRegisterAdmin" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.757">
-    <system-out><![CDATA[15:17:16.478 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.apigateway.ApigatewayApplicationTests]: ApigatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-15:17:16.555 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.apigateway.ApigatewayApplication for test class com.examly.apigateway.ApigatewayApplicationTests
+  <testcase name="backend_testRegisterAdmin" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.715">
+    <system-out><![CDATA[17:53:44.867 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.examly.apigateway.ApigatewayApplicationTests]: ApigatewayApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:53:44.974 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.examly.apigateway.ApigatewayApplication for test class com.examly.apigateway.ApigatewayApplicationTests
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -70,165 +70,130 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::               (v3.1.10)
 
-2025-05-28T15:17:16.862Z  INFO 65287 --- [           main] c.e.a.ApigatewayApplicationTests         : Starting ApigatewayApplicationTests using Java 17.0.14 with PID 65287 (started by coder in /home/coder/project/workspace/apigateway)
-2025-05-28T15:17:16.863Z  INFO 65287 --- [           main] c.e.a.ApigatewayApplicationTests         : No active profile set, falling back to 1 default profile: "default"
-2025-05-28T15:17:17.768Z  INFO 65287 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c069b105-82d6-3fcb-ad26-a2ccbbd6f730
-2025-05-28T15:17:17.831Z  INFO 65287 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2025-05-28T15:17:17.832Z  INFO 65287 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2025-05-28T15:17:17.832Z  INFO 65287 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
-2025-05-28T15:17:18.344Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
-2025-05-28T15:17:18.345Z  INFO 65287 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
-2025-05-28T15:17:18.424Z DEBUG 65287 --- [           main] o.s.w.r.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
-2025-05-28T15:17:18.510Z  INFO 65287 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
-2025-05-28T15:17:18.539Z DEBUG 65287 --- [           main] o.s.w.r.r.m.a.ControllerMethodResolver   : ControllerAdvice beans: none
-2025-05-28T15:17:18.563Z DEBUG 65287 --- [           main] o.s.w.s.adapter.HttpWebHandlerAdapter    : enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
-2025-05-28T15:17:18.649Z  INFO 65287 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
-2025-05-28T15:17:18.669Z  WARN 65287 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
-2025-05-28T15:17:18.909Z  INFO 65287 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 44125
-2025-05-28T15:17:18.911Z  INFO 65287 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 44125
-2025-05-28T15:17:18.914Z  INFO 65287 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
-2025-05-28T15:17:18.969Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
-2025-05-28T15:17:18.973Z  INFO 65287 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
-2025-05-28T15:17:18.988Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
-2025-05-28T15:17:18.988Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
-2025-05-28T15:17:18.988Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
-2025-05-28T15:17:18.988Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
-2025-05-28T15:17:18.989Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
-2025-05-28T15:17:18.989Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
-2025-05-28T15:17:18.989Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
-2025-05-28T15:17:19.009Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/
-2025-05-28T15:17:19.098Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
-2025-05-28T15:17:19.134Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:19.135Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
-2025-05-28T15:17:19.154Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
-2025-05-28T15:17:19.156Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
-2025-05-28T15:17:19.158Z  INFO 65287 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
-2025-05-28T15:17:19.162Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1748445439162 with initial instances count: 3
-2025-05-28T15:17:19.164Z  INFO 65287 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
-2025-05-28T15:17:19.164Z  INFO 65287 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1748445439164, current=UP, previous=STARTING]
-2025-05-28T15:17:19.165Z  INFO 65287 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0: registering service...
-2025-05-28T15:17:19.168Z DEBUG 65287 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8761/eureka/apps/API-GATEWAY
-2025-05-28T15:17:19.169Z DEBUG 65287 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
-2025-05-28T15:17:19.180Z DEBUG 65287 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Writing [InstanceInfo [instanceId = dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0, appName = API-GATEWAY, hostName = dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local, status = UP, ipAddr = 10.244.35.179, port = 44125, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@7500929] as "application/json"
-2025-05-28T15:17:19.195Z DEBUG 65287 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Response 204 NO_CONTENT
-2025-05-28T15:17:19.195Z  INFO 65287 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0 - registration status: 204
-2025-05-28T15:17:19.231Z  INFO 65287 --- [           main] c.e.a.ApigatewayApplicationTests         : Started ApigatewayApplicationTests in 2.598 seconds (process running for 3.274)
-2025-05-28T15:17:19.791Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/register
-2025-05-28T15:17:19.792Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:19.792Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"userId": 1,"email": "demoadmin@gmail.com", "password": "admin@1234", "username": "admin123", "userRole": "ADMIN", "mobileNumber": "9876543210"}] as "application/json"
-2025-05-28T15:17:19.861Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-1] HTTP POST "/api/register"
-2025-05-28T15:17:19.988Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
-2025-05-28T15:17:19.988Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:19.989Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-1] Completed 201 CREATED
+2025-05-28T17:53:45.354Z  INFO 121259 --- [           main] c.e.a.ApigatewayApplicationTests         : Starting ApigatewayApplicationTests using Java 17.0.14 with PID 121259 (started by coder in /home/coder/project/workspace/apigateway)
+2025-05-28T17:53:45.356Z  INFO 121259 --- [           main] c.e.a.ApigatewayApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2025-05-28T17:53:46.275Z  INFO 121259 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=c069b105-82d6-3fcb-ad26-a2ccbbd6f730
+2025-05-28T17:53:46.344Z  INFO 121259 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-28T17:53:46.344Z  INFO 121259 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig' of type [org.springframework.cloud.client.loadbalancer.reactive.LoadBalancerBeanPostProcessorAutoConfiguration$ReactorDeferringLoadBalancerFilterConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-28T17:53:46.345Z  INFO 121259 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'reactorDeferringLoadBalancerExchangeFilterFunction' of type [org.springframework.cloud.client.loadbalancer.reactive.DeferringLoadBalancerExchangeFilterFunction] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2025-05-28T17:53:46.852Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [After]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Before]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Between]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Cookie]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Header]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Host]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Method]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Path]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Query]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [ReadBody]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [RemoteAddr]
+2025-05-28T17:53:46.853Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2025-05-28T17:53:46.854Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [Weight]
+2025-05-28T17:53:46.854Z  INFO 121259 --- [           main] o.s.c.g.r.RouteDefinitionRouteLocator    : Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2025-05-28T17:53:46.950Z DEBUG 121259 --- [           main] o.s.w.r.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2025-05-28T17:53:47.048Z  INFO 121259 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint(s) beneath base path '/actuator'
+2025-05-28T17:53:47.080Z DEBUG 121259 --- [           main] o.s.w.r.r.m.a.ControllerMethodResolver   : ControllerAdvice beans: none
+2025-05-28T17:53:47.104Z DEBUG 121259 --- [           main] o.s.w.s.adapter.HttpWebHandlerAdapter    : enableLoggingRequestDetails='false': form data and headers will be masked to prevent unsafe logging of potentially sensitive data
+2025-05-28T17:53:47.177Z  INFO 121259 --- [           main] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-05-28T17:53:47.193Z  WARN 121259 --- [           main] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-05-28T17:53:47.420Z  INFO 121259 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 37371
+2025-05-28T17:53:47.422Z  INFO 121259 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 37371
+2025-05-28T17:53:47.425Z  INFO 121259 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-05-28T17:53:47.469Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-05-28T17:53:47.473Z  INFO 121259 --- [           main] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-05-28T17:53:47.485Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-05-28T17:53:47.486Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-05-28T17:53:47.504Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:8761/eureka/apps/
+2025-05-28T17:53:47.589Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-28T17:53:47.642Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:47.643Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [org.springframework.cloud.netflix.eureka.http.EurekaApplications]
+2025-05-28T17:53:47.661Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-05-28T17:53:47.663Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-05-28T17:53:47.665Z  INFO 121259 --- [           main] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-05-28T17:53:47.668Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1748454827668 with initial instances count: 4
+2025-05-28T17:53:47.670Z  INFO 121259 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application API-GATEWAY with eureka with status UP
+2025-05-28T17:53:47.670Z  INFO 121259 --- [           main] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1748454827670, current=UP, previous=STARTING]
+2025-05-28T17:53:47.671Z  INFO 121259 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0: registering service...
+2025-05-28T17:53:47.674Z DEBUG 121259 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : HTTP POST http://localhost:8761/eureka/apps/API-GATEWAY
+2025-05-28T17:53:47.675Z DEBUG 121259 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Accept=[application/json, application/*+json]
+2025-05-28T17:53:47.684Z DEBUG 121259 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Writing [InstanceInfo [instanceId = dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0, appName = API-GATEWAY, hostName = dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local, status = UP, ipAddr = 10.244.35.179, port = 37371, securePort = 443, dataCenterInfo = com.netflix.appinfo.MyDataCenterInfo@143ca921] as "application/json"
+2025-05-28T17:53:47.696Z DEBUG 121259 --- [nfoReplicator-0] o.s.web.client.RestTemplate              : Response 204 NO_CONTENT
+2025-05-28T17:53:47.696Z  INFO 121259 --- [nfoReplicator-0] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_API-GATEWAY/dbdbeafdabccbbaaabecdfcffdededdedf-0.dbdbeafdabccbbaaabecdfcffdededdedf.ide.svc.cluster.local:api-gateway:0 - registration status: 204
+2025-05-28T17:53:47.720Z  INFO 121259 --- [           main] c.e.a.ApigatewayApplicationTests         : Started ApigatewayApplicationTests in 2.646 seconds (process running for 3.543)
+2025-05-28T17:53:48.267Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/register
+2025-05-28T17:53:48.267Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.267Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"userId": 1,"email": "demoadmin@gmail.com", "password": "admin@1234", "username": "admin123", "userRole": "ADMIN", "mobileNumber": "9876543210"}] as "application/json"
+2025-05-28T17:53:48.322Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-1] HTTP POST "/api/register"
+2025-05-28T17:53:48.433Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
+2025-05-28T17:53:48.433Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.434Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-1] Completed 201 CREATED
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testRegisterUser" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.018">
-    <system-out><![CDATA[2025-05-28T15:17:20.004Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/register
-2025-05-28T15:17:20.005Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.005Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"userId": 2,"email": "demouser@gmail.com", "password": "user@1234", "username": "user123", "userRole": "USER", "mobileNumber": "1122334455"}] as "application/json"
-2025-05-28T15:17:20.006Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-2] HTTP POST "/api/register"
-2025-05-28T15:17:20.018Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
-2025-05-28T15:17:20.018Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-2] Completed 201 CREATED
-2025-05-28T15:17:20.018Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+  <testcase name="backend_testRegisterUser" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.017">
+    <system-out><![CDATA[2025-05-28T17:53:48.447Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/register
+2025-05-28T17:53:48.448Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.448Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"userId": 2,"email": "demouser@gmail.com", "password": "user@1234", "username": "user123", "userRole": "USER", "mobileNumber": "1122334455"}] as "application/json"
+2025-05-28T17:53:48.449Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-2] HTTP POST "/api/register"
+2025-05-28T17:53:48.459Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-2] Completed 201 CREATED
+2025-05-28T17:53:48.460Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
+2025-05-28T17:53:48.460Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testLoginAdmin" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.022">
-    <system-out><![CDATA[2025-05-28T15:17:20.026Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/login
-2025-05-28T15:17:20.027Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.027Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"email": "demoadmin@gmail.com", "password": "admin@1234"}] as "application/json"
-2025-05-28T15:17:20.028Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-3] HTTP POST "/api/login"
-2025-05-28T15:17:20.037Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.037Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-3] Completed 200 OK
-2025-05-28T15:17:20.037Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+  <testcase name="backend_testLoginAdmin" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.019">
+    <system-out><![CDATA[2025-05-28T17:53:48.465Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/login
+2025-05-28T17:53:48.465Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.465Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"email": "demoadmin@gmail.com", "password": "admin@1234"}] as "application/json"
+2025-05-28T17:53:48.466Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-3] HTTP POST "/api/login"
+2025-05-28T17:53:48.475Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.475Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.475Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-3] Completed 200 OK
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testLoginUser" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.015">
-    <system-out><![CDATA[2025-05-28T15:17:20.046Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/login
-2025-05-28T15:17:20.046Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.046Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"email": "demouser@gmail.com", "password": "user@1234"}] as "application/json"
-2025-05-28T15:17:20.047Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-4] HTTP POST "/api/login"
-2025-05-28T15:17:20.056Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.056Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-4] Completed 200 OK
-2025-05-28T15:17:20.056Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+  <testcase name="backend_testLoginUser" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.014">
+    <system-out><![CDATA[2025-05-28T17:53:48.484Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/login
+2025-05-28T17:53:48.484Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.484Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"email": "demouser@gmail.com", "password": "user@1234"}] as "application/json"
+2025-05-28T17:53:48.486Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-4] HTTP POST "/api/login"
+2025-05-28T17:53:48.493Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.494Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-4] Completed 200 OK
+2025-05-28T17:53:48.494Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testAddBusWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.315">
-    <system-out><![CDATA[2025-05-28T15:17:20.062Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/bus
-2025-05-28T15:17:20.062Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.063Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busName": "Express Bus","source": "New York","destination": "Washington D.C.","departureTime": "2025-04-01T08:00","arrivalTime": "2025-04-01T12:00","totalSeats": 50,"availableSeats": 50,"busType": "AC","fare": 25.5,"photo": "image_base64_data","user": {"userId": 1}}] as "application/json"
-2025-05-28T15:17:20.064Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-5] HTTP POST "/api/bus"
-2025-05-28T15:17:20.348Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
-2025-05-28T15:17:20.349Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-5] Completed 201 CREATED
-2025-05-28T15:17:20.349Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+  <testcase name="backend_testAddBusWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.034">
+    <system-out><![CDATA[2025-05-28T17:53:48.499Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/bus
+2025-05-28T17:53:48.499Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.499Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busName": "Express Bus","source": "New York","destination": "Washington D.C.","departureTime": "2025-04-01T08:00","arrivalTime": "2025-04-01T12:00","totalSeats": 50,"availableSeats": 50,"busType": "AC","fare": 25.5,"photo": "image_base64_data","user": {"userId": 1}}] as "application/json"
+2025-05-28T17:53:48.501Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-5] HTTP POST "/api/bus"
+2025-05-28T17:53:48.518Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
+2025-05-28T17:53:48.518Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-5] Completed 201 CREATED
+2025-05-28T17:53:48.518Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 Response Status (Admin): 201 CREATED
-Response Body (Admin): {"busId":1,"busName":"Express Bus","source":"New York","destination":"Washington D.C.","departureTime":"2025-04-01T08:00:00","arrivalTime":"2025-04-01T12:00:00","totalSeats":50,"availableSeats":50,"fare":25.5,"busType":"AC","photo":"image_base64_data"}
-2025-05-28T15:17:20.350Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/bus
-2025-05-28T15:17:20.350Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.350Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busName": "Express Bus","source": "New York","destination": "Washington D.C.","departureTime": "2025-04-01T08:00","arrivalTime": "2025-04-01T12:00","totalSeats": 50,"availableSeats": 50,"busType": "AC","fare": 25.5,"photo": "image_base64_data","user": {"userId": 1}}] as "application/json"
-2025-05-28T15:17:20.352Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-6] HTTP POST "/api/bus"
-2025-05-28T15:17:20.371Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.371Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.372Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-6] Completed 403 FORBIDDEN
+Response Body (Admin): {"busId":4,"busName":"Express Bus","source":"New York","destination":"Washington D.C.","departureTime":"2025-04-01T08:00:00","arrivalTime":"2025-04-01T12:00:00","totalSeats":50,"availableSeats":50,"fare":25.5,"busType":"AC","photo":"image_base64_data"}
+2025-05-28T17:53:48.519Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/bus
+2025-05-28T17:53:48.520Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.520Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busName": "Express Bus","source": "New York","destination": "Washington D.C.","departureTime": "2025-04-01T08:00","arrivalTime": "2025-04-01T12:00","totalSeats": 50,"availableSeats": 50,"busType": "AC","fare": 25.5,"photo": "image_base64_data","user": {"userId": 1}}] as "application/json"
+2025-05-28T17:53:48.521Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-6] HTTP POST "/api/bus"
+2025-05-28T17:53:48.528Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.528Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.528Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-6] Completed 403 FORBIDDEN
 Response Status (User): 403 FORBIDDEN
-Response Body (User): {"timestamp":"2025-05-28T15:17:20.365+00:00","status":403,"error":"Forbidden","message":"Forbidden","path":"/api/bus"}
+Response Body (User): {"timestamp":"2025-05-28T17:53:48.525+00:00","status":403,"error":"Forbidden","message":"Forbidden","path":"/api/bus"}
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testGetBusByIdWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.06">
-    <system-out><![CDATA[2025-05-28T15:17:20.377Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bus/1
-2025-05-28T15:17:20.377Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.379Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-7] HTTP GET "/api/bus/1"
-2025-05-28T15:17:20.416Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.417Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.417Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-7] Completed 200 OK
-200 OK Status code for Admin retrieving food
-Admin Response JSON: {"busId":1,"busName":"Express Bus","source":"New York","destination":"Washington D.C.","departureTime":"2025-04-01T08:00:00","arrivalTime":"2025-04-01T12:00:00","totalSeats":50,"availableSeats":50,"fare":25.5,"busType":"AC","photo":"image_base64_data"}
-2025-05-28T15:17:20.420Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bus/1
-2025-05-28T15:17:20.420Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.421Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-8] HTTP GET "/api/bus/1"
-2025-05-28T15:17:20.433Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.433Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-8] Completed 200 OK
-2025-05-28T15:17:20.433Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-200 OK Status code for User retrieving food
-]]></system-out>
-  </testcase>
-  <testcase name="backend_testGetAllBuses" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.074">
-    <system-out><![CDATA[2025-05-28T15:17:20.438Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bus
-2025-05-28T15:17:20.438Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.442Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-9] HTTP GET "/api/bus"
-2025-05-28T15:17:20.493Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.493Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-9] Completed 200 OK
-2025-05-28T15:17:20.493Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-200 OK Status code for Admin getting all buses
-2025-05-28T15:17:20.495Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bus
-2025-05-28T15:17:20.495Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.496Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-10] HTTP GET "/api/bus"
-2025-05-28T15:17:20.508Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.508Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-10] Completed 200 OK
-2025-05-28T15:17:20.508Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-200 OK Status code for User getting all buses
-]]></system-out>
-  </testcase>
-  <testcase name="backend_testUpdateBusWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.031">
-    <failure message="expected: &lt;Los Angeles&gt; but was: &lt;New York&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Los Angeles> but was: <New York>
+  <testcase name="backend_testGetBusByIdWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.023">
+    <failure message="expected: &lt;Express Bus&gt; but was: &lt;Updated Express Bus&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <Express Bus> but was: <Updated Express Bus>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
 	at org.junit.jupiter.api.AssertEquals.failNotEqual(AssertEquals.java:197)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
 	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
 	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1142)
-	at com.examly.apigateway.ApigatewayApplicationTests.backend_testUpdateBusWithRoleValidation(ApigatewayApplicationTests.java:276)
+	at com.examly.apigateway.ApigatewayApplicationTests.backend_testGetBusByIdWithRoleValidation(ApigatewayApplicationTests.java:183)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -301,36 +266,72 @@ Admin Response JSON: {"busId":1,"busName":"Express Bus","source":"New York","des
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-05-28T15:17:20.513Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:44125/api/bus/1
-2025-05-28T15:17:20.513Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.513Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busId": 1,"busName": "Updated Express Bus","source": "Los Angeles","destination": "San Francisco","departureTime": "2025-04-05T10:00","arrivalTime": "2025-04-05T15:00","totalSeats": 45,"availableSeats": 40,"busType": "Sleeper","fare": 35.0,"photo": "updatedBase64String","user": {"userId": 1}}] as "application/json"
-2025-05-28T15:17:20.515Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-11] HTTP PUT "/api/bus/1"
-2025-05-28T15:17:20.537Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.537Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-11] Completed 200 OK
-2025-05-28T15:17:20.537Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-200 OK Status code for Admin updating bus
+    <system-out><![CDATA[2025-05-28T17:53:48.533Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bus/1
+2025-05-28T17:53:48.533Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.535Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-7] HTTP GET "/api/bus/1"
+2025-05-28T17:53:48.549Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.549Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.549Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-7] Completed 200 OK
+200 OK Status code for Admin retrieving food
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testUserCanAddBooking" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.085">
-    <system-out><![CDATA[2025-05-28T15:17:20.546Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/bookings
-2025-05-28T15:17:20.547Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.547Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingDate": "2025-04-10","numberOfSeats": 2,"seatNumbers": [5, 6],"status": "CONFIRMED","user": {"userId": 2},"bus": {"busId": 1}}] as "application/json"
-2025-05-28T15:17:20.548Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-12] HTTP POST "/api/bookings"
-2025-05-28T15:17:20.614Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
-2025-05-28T15:17:20.614Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.615Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-12] Completed 201 CREATED
+  <testcase name="backend_testGetAllBuses" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.031">
+    <system-out><![CDATA[2025-05-28T17:53:48.557Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bus
+2025-05-28T17:53:48.558Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.559Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-8] HTTP GET "/api/bus"
+2025-05-28T17:53:48.571Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.571Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.571Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-8] Completed 200 OK
+200 OK Status code for Admin getting all buses
+2025-05-28T17:53:48.573Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bus
+2025-05-28T17:53:48.573Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.574Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-9] HTTP GET "/api/bus"
+2025-05-28T17:53:48.584Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.584Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.584Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-9] Completed 200 OK
+200 OK Status code for User getting all buses
+]]></system-out>
+  </testcase>
+  <testcase name="backend_testUpdateBusWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.052">
+    <system-out><![CDATA[2025-05-28T17:53:48.614Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:37371/api/bus/1
+2025-05-28T17:53:48.614Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.614Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busId": 1,"busName": "Updated Express Bus","source": "Los Angeles","destination": "San Francisco","departureTime": "2025-04-05T10:00","arrivalTime": "2025-04-05T15:00","totalSeats": 45,"availableSeats": 40,"busType": "Sleeper","fare": 35.0,"photo": "updatedBase64String","user": {"userId": 1}}] as "application/json"
+2025-05-28T17:53:48.615Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-10] HTTP PUT "/api/bus/1"
+2025-05-28T17:53:48.625Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.626Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.626Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-10] Completed 200 OK
+200 OK Status code for Admin updating bus
+Admin Update Response JSON: {"busId":1,"busName":"Updated Express Bus","source":"Los Angeles","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}
+2025-05-28T17:53:48.629Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:37371/api/bus/1
+2025-05-28T17:53:48.629Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.629Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"busId": 1,"busName": "Updated Express Bus","source": "Los Angeles","destination": "San Francisco","departureTime": "2025-04-05T10:00","arrivalTime": "2025-04-05T15:00","totalSeats": 45,"availableSeats": 40,"busType": "Sleeper","fare": 35.0,"photo": "updatedBase64String","user": {"userId": 1}}] as "application/json"
+2025-05-28T17:53:48.630Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-11] HTTP PUT "/api/bus/1"
+2025-05-28T17:53:48.636Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.636Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.637Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-11] Completed 403 FORBIDDEN
+403 FORBIDDEN Status code for User trying to update bus
+]]></system-out>
+  </testcase>
+  <testcase name="backend_testUserCanAddBooking" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.046">
+    <system-out><![CDATA[2025-05-28T17:53:48.641Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/bookings
+2025-05-28T17:53:48.641Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.641Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingDate": "2025-04-10","numberOfSeats": 2,"seatNumbers": [5, 6],"status": "CONFIRMED","user": {"userId": 2},"bus": {"busId": 1}}] as "application/json"
+2025-05-28T17:53:48.643Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-12] HTTP POST "/api/bookings"
+2025-05-28T17:53:48.672Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 201 CREATED
+2025-05-28T17:53:48.672Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.673Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-12] Completed 201 CREATED
 201 CREATED Status code for User adding booking
-2025-05-28T15:17:20.616Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/bookings
-2025-05-28T15:17:20.616Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.616Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingDate": "2025-04-10","numberOfSeats": 2,"seatNumbers": [5, 6],"status": "CONFIRMED","user": {"userId": 2},"bus": {"busId": 1}}] as "application/json"
-2025-05-28T15:17:20.617Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-13] HTTP POST "/api/bookings"
-2025-05-28T15:17:20.627Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.627Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.627Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-13] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.674Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/bookings
+2025-05-28T17:53:48.674Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.674Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingDate": "2025-04-10","numberOfSeats": 2,"seatNumbers": [5, 6],"status": "CONFIRMED","user": {"userId": 2},"bus": {"busId": 1}}] as "application/json"
+2025-05-28T17:53:48.675Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-13] HTTP POST "/api/bookings"
+2025-05-28T17:53:48.682Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.682Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-13] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.682Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 403 FORBIDDEN Status code for Admin trying to add a booking
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testAdminCanUpdateBooking" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.055">
+  <testcase name="backend_testAdminCanUpdateBooking" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.032">
     <failure message="expected: &lt;200 OK&gt; but was: &lt;500 INTERNAL_SERVER_ERROR&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <500 INTERNAL_SERVER_ERROR>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -411,53 +412,53 @@ Admin Response JSON: {"busId":1,"busName":"Express Bus","source":"New York","des
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-05-28T15:17:20.631Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:44125/api/bookings/1
-2025-05-28T15:17:20.632Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.632Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingId": 1,"bookingDate": "2025-04-15","numberOfSeats": 3,"seatNumbers": [7, 8, 9],"status": "CONFIRMED","user": {"userId": 1}}] as "application/json"
-2025-05-28T15:17:20.633Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-14] HTTP PUT "/api/bookings/1"
-2025-05-28T15:17:20.677Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
-2025-05-28T15:17:20.679Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.680Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-14] Completed 500 INTERNAL_SERVER_ERROR
+    <system-out><![CDATA[2025-05-28T17:53:48.688Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP PUT http://localhost:37371/api/bookings/1
+2025-05-28T17:53:48.689Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.689Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"bookingId": 1,"bookingDate": "2025-04-15","numberOfSeats": 3,"seatNumbers": [7, 8, 9],"status": "CONFIRMED","user": {"userId": 1}}] as "application/json"
+2025-05-28T17:53:48.691Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-14] HTTP PUT "/api/bookings/1"
+2025-05-28T17:53:48.710Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 500 INTERNAL_SERVER_ERROR
+2025-05-28T17:53:48.713Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.714Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-14] Completed 500 INTERNAL_SERVER_ERROR
 500 INTERNAL_SERVER_ERROR Status code for Admin updating booking
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testRoleBasedAccessForViewingAllBookings" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.035">
-    <system-out><![CDATA[2025-05-28T15:17:20.687Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bookings
-2025-05-28T15:17:20.687Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.688Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-15] HTTP GET "/api/bookings"
-2025-05-28T15:17:20.707Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.708Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.708Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-15] Completed 200 OK
+  <testcase name="backend_testRoleBasedAccessForViewingAllBookings" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.032">
+    <system-out><![CDATA[2025-05-28T17:53:48.721Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bookings
+2025-05-28T17:53:48.722Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.723Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-15] HTTP GET "/api/bookings"
+2025-05-28T17:53:48.738Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.738Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-15] Completed 200 OK
+2025-05-28T17:53:48.738Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 200 OK Status code for Admin viewing all bookings
-Admin View Bookings Response JSON: [{"bookingId":1,"bookingDate":"2025-04-10","numberOfSeats":2,"seatNumbers":[5,6],"status":"CONFIRMED","user":null,"bus":{"busId":1,"busName":"Updated Express Bus","source":"New York","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}}]
-2025-05-28T15:17:20.709Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bookings
-2025-05-28T15:17:20.709Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.710Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-16] HTTP GET "/api/bookings"
-2025-05-28T15:17:20.718Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.718Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.718Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-16] Completed 403 FORBIDDEN
+Admin View Bookings Response JSON: [{"bookingId":1,"bookingDate":"2025-04-10","numberOfSeats":2,"seatNumbers":[5,6],"status":"CONFIRMED","user":null,"bus":{"busId":1,"busName":"Updated Express Bus","source":"Los Angeles","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}},{"bookingId":2,"bookingDate":"2025-04-10","numberOfSeats":2,"seatNumbers":[5,6],"status":"CONFIRMED","user":null,"bus":{"busId":1,"busName":"Updated Express Bus","source":"Los Angeles","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}},{"bookingId":3,"bookingDate":"2025-04-10","numberOfSeats":2,"seatNumbers":[5,6],"status":"CONFIRMED","user":null,"bus":{"busId":1,"busName":"Updated Express Bus","source":"Los Angeles","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}},{"bookingId":4,"bookingDate":"2025-04-10","numberOfSeats":2,"seatNumbers":[5,6],"status":"CONFIRMED","user":null,"bus":{"busId":1,"busName":"Updated Express Bus","source":"Los Angeles","destination":"San Francisco","departureTime":"2025-04-05T10:00:00","arrivalTime":"2025-04-05T15:00:00","totalSeats":45,"availableSeats":40,"fare":35.0,"busType":"Sleeper","photo":"updatedBase64String"}}]
+2025-05-28T17:53:48.740Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bookings
+2025-05-28T17:53:48.740Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.741Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-16] HTTP GET "/api/bookings"
+2025-05-28T17:53:48.747Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.747Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+2025-05-28T17:53:48.747Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-16] Completed 403 FORBIDDEN
 403 FORBIDDEN Status code for User trying to view all bookings
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testUserCanViewOwnBookings" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.033">
-    <system-out><![CDATA[2025-05-28T15:17:20.723Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bookings/user/2
-2025-05-28T15:17:20.723Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.724Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-17] HTTP GET "/api/bookings/user/2"
-2025-05-28T15:17:20.741Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
-2025-05-28T15:17:20.742Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-17] Completed 200 OK
-2025-05-28T15:17:20.742Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+  <testcase name="backend_testUserCanViewOwnBookings" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.029">
+    <system-out><![CDATA[2025-05-28T17:53:48.753Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bookings/user/2
+2025-05-28T17:53:48.753Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.754Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-17] HTTP GET "/api/bookings/user/2"
+2025-05-28T17:53:48.767Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 200 OK
+2025-05-28T17:53:48.767Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-17] Completed 200 OK
+2025-05-28T17:53:48.767Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 200 OK Status code for User viewing their own bookings
 User View Own Bookings Response JSON: []
-2025-05-28T15:17:20.742Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/bookings/user/2
-2025-05-28T15:17:20.742Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.743Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-18] HTTP GET "/api/bookings/user/2"
-2025-05-28T15:17:20.751Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.752Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.752Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-18] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.768Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/bookings/user/2
+2025-05-28T17:53:48.769Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.770Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-18] HTTP GET "/api/bookings/user/2"
+2025-05-28T17:53:48.776Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.776Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-18] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.777Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 403 FORBIDDEN Status code for Admin trying to add a booking
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testAddFeedbackWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.015">
+  <testcase name="backend_testAddFeedbackWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.042">
     <failure message="expected: &lt;201 CREATED&gt; but was: &lt;403 FORBIDDEN&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <201 CREATED> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -538,17 +539,17 @@ User View Own Bookings Response JSON: []
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-05-28T15:17:20.756Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:44125/api/feedback
-2025-05-28T15:17:20.756Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.756Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Writing [{"feedbackId": 1,"comments": "Great service!","rating": 5,"user": { "userId": 2 },"bus": { "busId": 1 },"date": "2025-02-27"}] as "application/json"
-2025-05-28T15:17:20.757Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-19] HTTP POST "/api/feedback"
-2025-05-28T15:17:20.767Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.767Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.767Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-19] Completed 403 FORBIDDEN
+    <system-out><![CDATA[2025-05-28T17:53:48.782Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP POST http://localhost:37371/api/feedback
+2025-05-28T17:53:48.782Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.782Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Writing [{"feedbackId": 1,"comments": "Great service!","rating": 5,"user": { "userId": 2 },"bus": { "busId": 1 },"date": "2025-02-27"}] as "application/json"
+2025-05-28T17:53:48.783Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-19] HTTP POST "/api/feedback"
+2025-05-28T17:53:48.818Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.819Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-19] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.819Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 403 FORBIDDEN Status code for User adding feedback
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testGetAllFeedbackWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.012">
+  <testcase name="backend_testGetAllFeedbackWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.013">
     <failure message="expected: &lt;200 OK&gt; but was: &lt;403 FORBIDDEN&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -629,15 +630,15 @@ User View Own Bookings Response JSON: []
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-05-28T15:17:20.772Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/feedback
-2025-05-28T15:17:20.772Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.773Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-20] HTTP GET "/api/feedback"
-2025-05-28T15:17:20.780Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.780Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
-2025-05-28T15:17:20.780Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-20] Completed 403 FORBIDDEN
+    <system-out><![CDATA[2025-05-28T17:53:48.824Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/feedback
+2025-05-28T17:53:48.824Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.826Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-20] HTTP GET "/api/feedback"
+2025-05-28T17:53:48.833Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.833Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-20] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.833Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 ]]></system-out>
   </testcase>
-  <testcase name="backend_testGetFeedbackByUserIdWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.013">
+  <testcase name="backend_testGetFeedbackByUserIdWithRoleValidation" classname="com.examly.apigateway.ApigatewayApplicationTests" time="0.012">
     <failure message="expected: &lt;200 OK&gt; but was: &lt;403 FORBIDDEN&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <200 OK> but was: <403 FORBIDDEN>
 	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
 	at org.junit.jupiter.api.AssertionFailureBuilder.buildAndThrow(AssertionFailureBuilder.java:132)
@@ -718,12 +719,12 @@ User View Own Bookings Response JSON: []
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[2025-05-28T15:17:20.784Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:44125/api/feedback/user/2
-2025-05-28T15:17:20.785Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
-2025-05-28T15:17:20.786Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-21] HTTP GET "/api/feedback/user/2"
-2025-05-28T15:17:20.793Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
-2025-05-28T15:17:20.793Z DEBUG 65287 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [f9b6e51d-21] Completed 403 FORBIDDEN
-2025-05-28T15:17:20.793Z DEBUG 65287 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
+    <system-out><![CDATA[2025-05-28T17:53:48.839Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : HTTP GET http://localhost:37371/api/feedback/user/2
+2025-05-28T17:53:48.839Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Accept=[text/plain, application/json, application/*+json, */*]
+2025-05-28T17:53:48.840Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-21] HTTP GET "/api/feedback/user/2"
+2025-05-28T17:53:48.847Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Response 403 FORBIDDEN
+2025-05-28T17:53:48.847Z DEBUG 121259 --- [or-http-epoll-2] o.s.w.s.adapter.HttpWebHandlerAdapter    : [d7bcb548-21] Completed 403 FORBIDDEN
+2025-05-28T17:53:48.847Z DEBUG 121259 --- [           main] o.s.web.client.RestTemplate              : Reading to [java.lang.String] as "application/json"
 ]]></system-out>
   </testcase>
 </testsuite>

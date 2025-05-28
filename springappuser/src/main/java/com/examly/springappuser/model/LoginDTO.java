@@ -1,13 +1,13 @@
 package com.examly.springappuser.model;
 
 public class LoginDTO {
-    private String jwt;
+    private String token;
 
-    public LoginDTO(String jwt) {
-        this.jwt = jwt;
+    public LoginDTO(String token) {
+        this.token = token;
     }
 
     public String getJwt() {
-        return jwt;
+        return token;
     }
 }

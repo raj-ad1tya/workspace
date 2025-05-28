@@ -32,6 +32,8 @@ public class AuthController {
         if(loginDTO == null)
             status = 401;
 
+        System.out.println(loginDTO);
+
         return new ResponseEntity<LoginDTO>(loginDTO, HttpStatusCode.valueOf(status));
     }
 

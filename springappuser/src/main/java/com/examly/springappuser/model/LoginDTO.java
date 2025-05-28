@@ -10,4 +10,6 @@ public class LoginDTO {
     public String getJwt() {
         return token;
     }
+
+    
 }

@@ -7,7 +7,7 @@ public class LoginDTO {
         this.token = token;
     }
 
-    public String getJwt() {
+    public String getToken() {
         return token;
     }
 

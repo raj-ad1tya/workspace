@@ -25,8 +25,8 @@ public class FeedbackServiceImpl implements FeedbackService {
 
     @Override
     public Feedback createFeedback(Feedback feedback) {
-        String email = feedback.getUser().getEmail();
-        User user = userRepo.findByEmail(email).orElse(null);
+        Integer userId = booking.getUser().getUserId();
+        User user = userRepo.findById(userId).orElse(null);
 
         Integer busId = feedback.getBus().getBusId();
         Bus bus = busRepo.findById(busId).orElse(null);

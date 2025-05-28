@@ -26,8 +26,8 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public Booking addBooking(Booking booking) {
-        String email = booking.getUser().getEmail();
-        User user = userRepo.findByEmail(email).orElse(null);
+        Integer userId = booking.getUser().getUserId();
+        User user = userRepo.findById(userId).orElse(null);
 
         Integer busId = booking.getBus().getBusId();
         Bus bus = busRepo.findById(busId).orElse(null);

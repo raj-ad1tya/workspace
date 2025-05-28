@@ -11,5 +11,8 @@ public class LoginDTO {
         return token;
     }
 
-    
+    @Override
+    public String toString() {
+        return "LoginDTO [token=" + token + "]";
+    }
 }

@@ -52,6 +52,9 @@ public class BookingServiceImpl implements BookingService {
     public Booking updateBooking(int bookingId, Booking bookingDetails) {
         Booking existingBooking = bookingRepo.findById(bookingId).orElse(null);
 
+        System.out.println("existingBooking"+existingBooking);
+        System.out.println("Bookingdetasild"+bookingDetails);
+
         if(existingBooking == null)
             return null;
 

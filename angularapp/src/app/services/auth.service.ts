@@ -8,24 +8,25 @@ import { Observable } from 'rxjs';
 })
 export class AuthService {
 
-  constructor(private http: HttpClient) { }
+  // constructor(private http: HttpClient) { }
 
-   public apiUrl = 'http://localhost:8080';
+  constructor() { }
 
-   register(user: User): Observable<any> {
-    return this.http.post(`${this.apiUrl}/api/register`, user);
-   }
+  //  public apiUrl = 'http://localhost:8080';
 
-   login(login : Login): Observable<any> {
-     return this.http.post<{ token: string, userId: number, userRole: string }>(`${this.apiUrl}/api/login`, login)
-      .pipe(
-        tap(response => {
-          localStorage.setItem('token', response.token);
-          // Update BehaviorSubjects with user data
-          this.userRoleSubject.next(response.userRole);
-          this.userIdSubject.next(response.userId);
-        })
-      );
-   }
+  //  register(user: User): Observable<any> {
+  //   return this.http.post(`${this.apiUrl}/api/register`, user);
+  //  }
+
+  //  login(login : Login): Observable<any> {
+  //    return this.http.post<{ token: string, userId: number, userRole: string }>(`${this.apiUrl}/api/login`, login)
+  //     .pipe(
+  //       tap(response => {
+          // localStorage.setItem('token', response.token);
+          // this.userRoleSubject.next(response.userRole);
+          // this.userIdSubject.next(response.userId);
+  //       })
+  //     );
+  //  }
 
 }

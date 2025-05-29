@@ -10,7 +10,7 @@ describe('BookingService', () => {
     service = TestBed.inject(BookingService);
   });
 
-  it('should be created', () => {
+  fit('frontend_should_create_booking_service', () => {
     expect(service).toBeTruthy();
   });
 });

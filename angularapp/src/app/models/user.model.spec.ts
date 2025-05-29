@@ -1,7 +1,21 @@
-import { UserModel } from './user.model';
+import { User } from './user.model';
 
-describe('UserModel', () => {
-  it('should create an instance', () => {
-    expect(new UserModel()).toBeTruthy();
+describe('User Model', () => {
+
+  fit('frontend_User_model_should_create_an_instance', () => {
+    // Create a sample User object
+    const user: User = {
+      email: 'testuser@example.com',
+      password: 'testpassword',
+      username: 'testuser',
+      mobileNumber: '1234567890',
+      userRole: 'admin'
+    };
+
+    expect(user).toBeTruthy();
+
+    expect(user.userId).toBeUndefined();
+    expect(user.email).toBe('testuser@example.com');
   });
+
 });

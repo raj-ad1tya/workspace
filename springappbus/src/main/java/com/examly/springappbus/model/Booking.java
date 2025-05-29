@@ -10,9 +10,9 @@ public class Booking {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int bookingId;
+    private Integer bookingId;
     private LocalDate bookingDate;
-    private int numberOfSeats;
+    private Integer numberOfSeats;
     @ElementCollection@CollectionTable(
             name = "booking_seats",
             joinColumns = @JoinColumn(name = "booking_id")
@@ -20,14 +20,15 @@ public class Booking {
     @Column(name = "seat_number")
     private List<Integer> seatNumbers;
     private String status;
-    @ManyToOne
-    @JoinColumn(name = "user_id")
+    @Column(name = "user_id")
+    private Integer userId;
+    @Transient
     private User user;
     @ManyToOne
     @JoinColumn(name = "bus_id")
     private Bus bus;
 
-    public int getBookingId() {
+    public Integer getBookingId() {
         return bookingId;
     }
 
@@ -39,11 +40,11 @@ public class Booking {
         this.bookingDate = bookingDate;
     }
 
-    public int getNumberOfSeats() {
+    public Integer getNumberOfSeats() {
         return numberOfSeats;
     }
 
-    public void setNumberOfSeats(int numberOfSeats) {
+    public void setNumberOfSeats(Integer numberOfSeats) {
         this.numberOfSeats = numberOfSeats;
     }
 
@@ -61,6 +62,14 @@ public class Booking {
 
     public void setStatus(String status) {
         this.status = status;
+    }
+
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
     }
 
     public User getUser() {
@@ -87,6 +96,7 @@ public class Booking {
                 ", numberOfSeats=" + numberOfSeats +
                 ", seatNumbers=" + seatNumbers +
                 ", status='" + status + '\'' +
+                ", userId=" + userId +
                 ", user=" + user +
                 ", bus=" + bus +
                 '}';

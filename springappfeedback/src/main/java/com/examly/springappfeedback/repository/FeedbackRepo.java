@@ -9,5 +9,5 @@ import java.util.Optional;
 
 @Repository
 public interface FeedbackRepo extends JpaRepository<Feedback, Integer> {
-    Optional<List<Feedback>> findByUserUserId(Integer userId);
+    Optional<List<Feedback>> findByUserId(Integer userId);
 }

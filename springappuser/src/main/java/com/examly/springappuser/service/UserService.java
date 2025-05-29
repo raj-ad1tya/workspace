@@ -10,4 +10,6 @@ public interface UserService {
     User createUser(User user);
     LoginDTO loginUser(User user);
 
+    // custom
+    Boolean userExistsById(Integer userId);
 }

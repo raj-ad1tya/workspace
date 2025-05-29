@@ -11,11 +11,13 @@ public class Feedback {
     private int feedbackId;
     private String comments;
     private LocalDate date;
-    @ManyToOne
-    @JoinColumn(name="user_Id", nullable=false)
+    @Column(name="user_Id", nullable=false)
+    private Integer userId;
+    @Transient
     private User user;
-    @ManyToOne
-    @JoinColumn(name="bus_Id ", nullable=false)
+    @Column(name="bus_Id ", nullable=false)
+    private Integer busId;
+    @Transient
     private Bus bus;
 
     public int getFeedbackId() {
@@ -38,12 +40,28 @@ public class Feedback {
         this.date = date;
     }
 
+    public Integer getUserId() {
+        return userId;
+    }
+
+    public void setUserId(Integer userId) {
+        this.userId = userId;
+    }
+
     public User getUser() {
         return user;
     }
 
     public void setUser(User user) {
         this.user = user;
+    }
+
+    public Integer getBusId() {
+        return busId;
+    }
+
+    public void setBusId(Integer busId) {
+        this.busId = busId;
     }
 
     public Bus getBus() {
@@ -60,7 +78,9 @@ public class Feedback {
                 "feedbackId=" + feedbackId +
                 ", comments='" + comments + '\'' +
                 ", date=" + date +
+                ", userId=" + userId +
                 ", user=" + user +
+                ", busId=" + busId +
                 ", bus=" + bus +
                 '}';
     }

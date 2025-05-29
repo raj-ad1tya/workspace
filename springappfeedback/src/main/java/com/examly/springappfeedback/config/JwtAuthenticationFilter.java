@@ -8,13 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.User;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.web.authentication.WebAuthenticationDetailsSource;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
-
-import com.examly.springappuser.config.JwtUtils;
 
 import java.io.IOException;
 import java.util.List;
@@ -32,8 +28,6 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
         String jwt = null;
         String email = null;
 
-        System.out.println(authorizationHeader);
-
         if (authorizationHeader != null && authorizationHeader.startsWith("Bearer ")) {
             jwt = authorizationHeader.substring(7);
 
@@ -43,9 +37,13 @@ public class JwtAuthenticationFilter extends OncePerRequestFilter {
             }
 
             email = jwtUtils.extractUsername(jwt);
+            Integer userId = jwtUtils.extractUserId(jwt);
             String roles = jwtUtils.extractRoles(jwt);
 
-            UserDetails userDetails = new User(email, "", List.of(new SimpleGrantedAuthority("ROLE_"+roles)));
+            CustomUserDetails userDetails = new CustomUserDetails(userId, email, "", List.of(new SimpleGrantedAuthority(roles.toUpperCase())));
+
+            System.out.println(userDetails);
+
             UsernamePasswordAuthenticationToken authentication = new UsernamePasswordAuthenticationToken(userDetails, null, userDetails.getAuthorities());
             authentication.setDetails(new WebAuthenticationDetailsSource().buildDetails(request));
             SecurityContextHolder.getContext().setAuthentication(authentication);

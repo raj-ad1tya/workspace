@@ -19,7 +19,13 @@ public class BookingController {
 
     @PostMapping
     public ResponseEntity<Booking> addBooking(@RequestBody Booking booking) {
-        return new ResponseEntity<Booking>(bookingService.addBooking(booking), HttpStatusCode.valueOf(201));
+        Booking fetchedBooking = bookingService.addBooking(booking);
+        int status = 201;
+
+        if(fetchedBooking == null)
+            status = 400;
+
+        return new ResponseEntity<Booking>(fetchedBooking, HttpStatusCode.valueOf(status));
     }
 
     @GetMapping("/{bookingId}")

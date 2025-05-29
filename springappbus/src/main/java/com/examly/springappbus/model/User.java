@@ -5,19 +5,16 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-@Entity
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private int userId;
+    private Integer userId;
     private String email;
     private String password;
     private String username;
     private String mobileNumber;
     private String userRole;
 
-    public int getUserId() {
+    public Integer getUserId() {
         return userId;
     }
 

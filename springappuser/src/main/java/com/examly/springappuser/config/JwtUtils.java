@@ -1,6 +1,7 @@
 package com.examly.springappuser.config;
 
 import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.JwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
@@ -21,10 +22,10 @@ public class JwtUtils {
     @Value("${jwt.secret}")
     public String SECRET;
 
-    public String generateToken(UserDetails userDetails) {
+    public String generateToken(CustomUserDetails userDetails) {
         Map<String, Object> claims = new HashMap<>();
-        List<String> rolesList = userDetails.getAuthorities().stream().map(GrantedAuthority::getAuthority)
-                .map(role -> role.replace("ROLE_","")).toList();
+        List<String> rolesList = userDetails.getAuthorities().stream().map(GrantedAuthority::getAuthority).toList();
+        claims.put("userId", userDetails.getUserId());
         claims.put("roles", String.join(",", rolesList));
         return createToken(claims, userDetails.getUsername());
     }
@@ -47,6 +48,10 @@ public class JwtUtils {
         return extractClaim(token, Claims::getExpiration);
     }
 
+    public Integer extractUserId(String token) {
+        return extractAllClaims(token).get("userId", Integer.class);
+    }
+
     public String extractRoles(String token) {
         return extractAllClaims(token).get("roles", String.class);
     }
@@ -64,9 +69,13 @@ public class JwtUtils {
         return extractExpiration(token).before(new Date());
     }
 
-    public Boolean validateToken(String token, UserDetails userDetails) {
-        final String username = extractUsername(token);
-        return (username.equals(userDetails.getUsername()) && !isTokenExpired(token));
+    public boolean validateToken(String token) {
+        try {
+            Jwts.parser().setSigningKey(SECRET).parseClaimsJws(token);
+            return !isTokenExpired(token);
+        } catch (JwtException e) {
+            return false;
+        }
     }
 
 }

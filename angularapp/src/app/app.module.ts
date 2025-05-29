@@ -20,6 +20,7 @@ import { UsernavComponent } from './components/usernav/usernav.component';
 import { UserviewbookingComponent } from './components/userviewbooking/userviewbooking.component';
 import { UserviewbusComponent } from './components/userviewbus/userviewbus.component';
 import { UserviewfeedbackComponent } from './components/userviewfeedback/userviewfeedback.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { UserviewfeedbackComponent } from './components/userviewfeedback/uservie
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -8,7 +8,8 @@ import java.time.LocalDate;
 public class Feedback {
     @Id
     @GeneratedValue(strategy= GenerationType.AUTO)
-    private int feedbackId;
+    private Integer feedbackId;
+    private Integer rating;
     private String comments;
     private LocalDate date;
     @Column(name="user_Id", nullable=false)
@@ -22,6 +23,14 @@ public class Feedback {
 
     public int getFeedbackId() {
         return feedbackId;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
     }
 
     public String getComments() {

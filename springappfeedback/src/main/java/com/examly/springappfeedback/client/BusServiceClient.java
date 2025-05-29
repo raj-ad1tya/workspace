@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "api-gateway")
+@FeignClient(name = "api-gateway", contextId = "bus-service-client")
 public interface BusServiceClient {
 
     @GetMapping("/api/bus/{busId}")

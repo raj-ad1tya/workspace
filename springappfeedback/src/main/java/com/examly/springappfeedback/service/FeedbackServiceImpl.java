@@ -1,11 +1,11 @@
 package com.examly.springappfeedback.service;
 
+import com.examly.springappfeedback.client.BusServiceClient;
+import com.examly.springappfeedback.client.UserServiceClient;
 import com.examly.springappfeedback.model.Bus;
 import com.examly.springappfeedback.model.Feedback;
 import com.examly.springappfeedback.model.User;
-import com.examly.springappfeedback.repository.BusRepo;
 import com.examly.springappfeedback.repository.FeedbackRepo;
-import com.examly.springappfeedback.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,20 +18,26 @@ public class FeedbackServiceImpl implements FeedbackService {
     private FeedbackRepo feedbackRepo;
 
     @Autowired
-    private UserRepo userRepo;
+    private UserServiceClient userServiceClient;
 
     @Autowired
-    private BusRepo busRepo;
+    private BusServiceClient busServiceClient;
 
     @Override
     public Feedback createFeedback(Feedback feedback) {
         Integer userId = feedback.getUser().getUserId();
-        User user = userRepo.findById(userId).orElse(null);
+        Boolean userExists = userServiceClient.userExistsById(userId).getBody();
+
+        if(!userExists)
+            return null;
 
         Integer busId = feedback.getBus().getBusId();
-        Bus bus = busRepo.findById(busId).orElse(null);
+        Bus bus = busServiceClient.getBusById(busId).getBody();
 
-        feedback.setUser(user);
+        if(bus == null)
+            return null;
+
+        feedback.setUserId(userId);
         feedback.setBus(bus);
 
         return feedbackRepo.save(feedback);
@@ -59,6 +65,6 @@ public class FeedbackServiceImpl implements FeedbackService {
 
     @Override
     public List<Feedback> getFeedbacksByUserId(int userId) {
-        return feedbackRepo.findByUserUserId(userId).orElse(null);
+        return feedbackRepo.findByUserId(userId).orElse(null);
     }
 }

@@ -1,11 +1,11 @@
 package com.examly.springappbus.service;
 
+import com.examly.springappbus.client.UserServiceClient;
 import com.examly.springappbus.model.Booking;
 import com.examly.springappbus.model.Bus;
 import com.examly.springappbus.model.User;
 import com.examly.springappbus.repository.BookingRepo;
 import com.examly.springappbus.repository.BusRepo;
-import com.examly.springappbus.repository.UserRepo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -19,21 +19,26 @@ public class BookingServiceImpl implements BookingService {
     private BookingRepo bookingRepo;
 
     @Autowired
-    private UserRepo userRepo;
+    private BusRepo busRepo;
 
     @Autowired
-    private BusRepo busRepo;
+    private UserServiceClient userServiceClient;
 
     @Override
     public Booking addBooking(Booking booking) {
         Integer userId = booking.getUser().getUserId();
-        User user = userRepo.findById(userId).orElse(null);
+        Boolean userExists = userServiceClient.userExistsById(userId).getBody();
+
+        if(!userExists)
+            return null;
 
         Integer busId = booking.getBus().getBusId();
         Bus bus = busRepo.findById(busId).orElse(null);
 
-        booking.setUser(user);
+        booking.setUserId(userId);
         booking.setBus(bus);
+
+        System.out.println(booking);
 
         return bookingRepo.save(booking);
     }
@@ -80,6 +85,6 @@ public class BookingServiceImpl implements BookingService {
 
     @Override
     public List<Booking> getBookingsByUserId(int userId) {
-        return bookingRepo.findByUserUserId(userId).orElse(null);
+        return bookingRepo.findByUserId(userId).orElse(null);
     }
 }

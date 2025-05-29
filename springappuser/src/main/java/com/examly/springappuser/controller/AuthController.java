@@ -7,10 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("/api")
@@ -33,6 +30,13 @@ public class AuthController {
             status = 401;
 
         return new ResponseEntity<LoginDTO>(loginDTO, HttpStatusCode.valueOf(status));
+    }
+
+    @GetMapping("/user/{userId}/exists")
+    public ResponseEntity<Boolean> userExistsById(@PathVariable Integer userId) {
+        Boolean userExists = userService.userExistsById(userId);
+
+        return ResponseEntity.ok(userExists);
     }
 
 }

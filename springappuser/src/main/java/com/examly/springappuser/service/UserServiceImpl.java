@@ -1,5 +1,6 @@
 package com.examly.springappuser.service;
 
+import com.examly.springappuser.config.CustomUserDetails;
 import com.examly.springappuser.config.JwtUtils;
 import com.examly.springappuser.model.LoginDTO;
 import com.examly.springappuser.model.User;
@@ -8,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
-import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -40,12 +40,17 @@ public class UserServiceImpl implements UserService {
         );
 
         if (authentication.isAuthenticated()) {
-            UserDetails userDetails = (UserDetails) authentication.getPrincipal();
-            String jwt = jwtUtils.generateToken(userDetails);
+            CustomUserDetails userDetails = (CustomUserDetails) authentication.getPrincipal();
+            String token = jwtUtils.generateToken(userDetails);
 
-            return new LoginDTO(jwt);
+            return new LoginDTO(token);
         }
 
         return null;
+    }
+
+    @Override
+    public Boolean userExistsById(Integer userId) {
+        return userRepo.existsById(userId);
     }
 }

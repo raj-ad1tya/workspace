@@ -12,19 +12,19 @@ public class Bus {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int busId;
+    private Integer busId;
     private String busName;
     private String source;
     private String destination;
     private LocalDateTime departureTime;
     private LocalDateTime arrivalTime;
-    private int totalSeats;
-    private int availableSeats;
+    private Integer totalSeats;
+    private Integer availableSeats;
     private double fare;
     private String busType;
     private String photo;
 
-    public int getBusId() {
+    public Integer getBusId() {
         return busId;
     }
 
@@ -68,19 +68,19 @@ public class Bus {
         this.arrivalTime = arrivalTime;
     }
 
-    public int getTotalSeats() {
+    public Integer getTotalSeats() {
         return totalSeats;
     }
 
-    public void setTotalSeats(int totalSeats) {
+    public void setTotalSeats(Integer totalSeats) {
         this.totalSeats = totalSeats;
     }
 
-    public int getAvailableSeats() {
+    public Integer getAvailableSeats() {
         return availableSeats;
     }
 
-    public void setAvailableSeats(int availableSeats) {
+    public void setAvailableSeats(Integer availableSeats) {
         this.availableSeats = availableSeats;
     }
 
@@ -113,6 +113,7 @@ public class Bus {
         return "Bus{" +
                 "busId=" + busId +
                 ", busName='" + busName + '\'' +
+                ", source='" + source + '\'' +
                 ", destination='" + destination + '\'' +
                 ", departureTime=" + departureTime +
                 ", arrivalTime=" + arrivalTime +

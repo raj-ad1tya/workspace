@@ -1,11 +1,12 @@
-com/examly/springappuser/config/SecurityConfig.class
 com/examly/springappuser/service/UserService.class
+com/examly/springappuser/config/SecurityConfig.class
 com/examly/springappuser/model/User.class
 com/examly/springappuser/SpringappuserApplication.class
+com/examly/springappuser/config/MyUserDetailsService.class
+com/examly/springappuser/model/LoginDTO.class
 com/examly/springappuser/controller/AuthController.class
 com/examly/springappuser/repository/UserRepo.class
+com/examly/springappuser/config/CustomUserDetails.class
 com/examly/springappuser/config/JwtUtils.class
-com/examly/springappuser/config/MyUserDetailsService.class
-com/examly/springappuser/config/JwtAuthenticationFilter.class
 com/examly/springappuser/service/UserServiceImpl.class
-com/examly/springappuser/model/LoginDTO.class
+com/examly/springappuser/config/JwtAuthenticationFilter.class

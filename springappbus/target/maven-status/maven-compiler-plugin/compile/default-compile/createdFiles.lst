@@ -1,14 +1,13 @@
 com/examly/springappbus/model/Bus.class
-com/examly/springappbus/repository/UserRepo.class
 com/examly/springappbus/config/SecurityConfig.class
 com/examly/springappbus/repository/BookingRepo.class
 com/examly/springappbus/service/BookingServiceImpl.class
 com/examly/springappbus/config/JwtUtils.class
 com/examly/springappbus/controller/BusController.class
 com/examly/springappbus/model/Booking.class
-com/examly/springappbus/model/User.class
 com/examly/springappbus/service/BusService.class
 com/examly/springappbus/service/BookingService.class
+com/examly/springappbus/model/User.class
 com/examly/springappbus/config/JwtAuthenticationFilter.class
 com/examly/springappbus/service/BusServiceImpl.class
 com/examly/springappbus/repository/BusRepo.class

@@ -38,7 +38,7 @@ public class FeedbackServiceImpl implements FeedbackService {
             return null;
 
         feedback.setUserId(userId);
-        feedback.setBus(bus);
+        feedback.setBusId(busId);
 
         return feedbackRepo.save(feedback);
     }

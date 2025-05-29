@@ -45,7 +45,7 @@ public class FeedbackController {
     }
 
     @GetMapping("/user/{userId}")
-    public ResponseEntity<List<Feedback>> getFeedbacksByUserId(int userId) {
+    public ResponseEntity<List<Feedback>> getFeedbacksByUserId(@PathVariable int userId) {
         List<Feedback> fetchedFeedbacksListByUserId = feedbackService.getFeedbacksByUserId(userId);
         int status = 200;
 
@@ -56,7 +56,7 @@ public class FeedbackController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Feedback> deleteFeedback(int id) {
+    public ResponseEntity<Feedback> deleteFeedback(@PathVariable int id) {
         Feedback deletedFeedback = feedbackService.deleteFeedback(id);
         int status = 200;
 

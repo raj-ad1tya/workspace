@@ -12,7 +12,6 @@ export class BookingService {
 
   constructor(private http: HttpClient) { }
 
-  // Helper to create HTTP headers with Bearer token
   private getAuthHeaders(): HttpHeaders {
     const token = localStorage.getItem('token') || '';
     return new HttpHeaders({

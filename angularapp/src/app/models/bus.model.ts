@@ -12,5 +12,6 @@ export interface Bus {
     busType: string;
     fare: number;
     photo?: string;
-    user: User;
+    user?: User;
+    userId: number;
 }

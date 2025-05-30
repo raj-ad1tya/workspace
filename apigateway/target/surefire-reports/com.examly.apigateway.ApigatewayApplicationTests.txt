@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.examly.apigateway.ApigatewayApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.582 s - in com.examly.apigateway.ApigatewayApplicationTests
+Tests run: 15, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.652 s - in com.examly.apigateway.ApigatewayApplicationTests
